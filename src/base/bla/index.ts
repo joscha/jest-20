@@ -1,0 +1,1 @@
+export const X = () => console.log('hello');

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2016"
+    ],
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "target",
+    "strictNullChecks": true,
+    "target": "ES6"
+  },
+  "include": [
+    "src"
+  ]
+}

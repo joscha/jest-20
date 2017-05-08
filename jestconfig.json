@@ -1,0 +1,23 @@
+{
+    "coverageDirectory": "target/coverage",
+    "collectCoverageFrom" : [
+      "**/*.{ts,tsx}"
+    ],
+    "coverageReporters": ["lcov", "text-summary"],
+    "globals": {
+      "__TS_CONFIG__": "./tsconfig.test.json"
+    },
+    "mapCoverage": true,
+    "roots": ["<rootDir>/src"],
+    "modulePaths": ["<rootDir>/src"],
+    "moduleDirectories": ["node_modules", "<rootDir>/src"],
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }

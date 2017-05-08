@@ -1,0 +1,17 @@
+{
+  "name": "jest-20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.0"
+  },
+  "dependencies": {
+    "ts-jest": "^20.0.0",
+    "typescript": "^2.3.2"
+  },
+  "scripts": {
+    "pretest": "rm -rf ./target/coverage",
+    "test": "jest  --config jestconfig.json --ci --coverage --no-cache"
+  }
+}
